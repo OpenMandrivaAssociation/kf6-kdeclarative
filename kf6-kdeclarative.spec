@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Declarative
 %define devname %mklibname KF6Declarative -d
-%define git 20230608
+%define git 20230609
 
 Name: kf6-kdeclarative
 Version: 5.240.0
@@ -84,7 +84,6 @@ Integration of QML and KDE work spaces
 %{_libdir}/libKF6CalendarEvents.so*
 %{_qtdir}/qml/org/kde/draganddrop
 %{_qtdir}/qml/org/kde/graphicaleffects
-%{_qtdir}/qml/org/kde/kcm
 %{_qtdir}/qml/org/kde/kquickcontrols
 %{_qtdir}/qml/org/kde/kquickcontrolsaddons
 %{_qtdir}/qml/org/kde/private/kquickcontrols
