@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Declarative
 %define devname %mklibname KF6Declarative -d
-%define git 20230802
+%define git 20230811
 
 Name: kf6-kdeclarative
 Version: 5.240.0
