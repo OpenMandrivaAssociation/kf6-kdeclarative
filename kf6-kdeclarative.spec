@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-kdeclarative
-Version: 6.9.0
+Version: 6.10.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kdeclarative/-/archive/master/kdeclarative-master.tar.bz2#/kdeclarative-%{git}.tar.bz2
@@ -91,6 +91,7 @@ Integration of QML and KDE work spaces
 
 %files -n %{libname}
 %{_libdir}/libKF6CalendarEvents.so*
+%{_libdir}/libkquickcontrolsprivate.so*
 %{_qtdir}/qml/org/kde/draganddrop
 %{_qtdir}/qml/org/kde/graphicaleffects
 %{_qtdir}/qml/org/kde/kquickcontrols
